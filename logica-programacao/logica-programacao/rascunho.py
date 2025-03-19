@@ -1050,19 +1050,98 @@ import string
 #     print("Fim de jogo!")
 #     print(f"O número sorteado era {sorteado}.")     
 
-num = int(input("Informe um número: "))
-aux = num
-cont = 0
-d = 1
+# num = int(input("Informe um número: "))
+# aux = num
+# cont = 0
+# d = 1
+# 
+# while d <= num:
+#     
+#     if num % d == 0 : cont = cont + 1
+#     d = d + 1
+# 
+# if cont == 2:        
+#     print(f"{num} é um número primo")
+# 
+# else:
+#     print(f"{num} não é um número primo")
 
-while d <= num:
-    
-    if num % d == 0 : cont = cont + 1
-    d = d + 1
+# nTermos = int(input("Informe o número de termos: "))
+# 
+# if nTermos <= 0:
+#     print("Informe um número positivo")
+#     
+# else:
+#     
+#     soma = 0
+#     cont = 1
+#     numerador = 2
+#     denominador = 1
+#     
+#     while cont <= nTermos:
+#         soma = soma + numerador/denominador
+#         cont = cont + 1
+#         numerador = numerador + 2
+#         denominador = denominador + 2
+#         
+#     print(f"A soma dos {nTermos} termos é {soma:.2f}")
 
-if cont == 2:        
-    print(f"{num} é um número primo")
+# a = int(input("Informe o primeiro valor: "))
+#     
+# while a <= 0:
+#     print("Informe um número positivo")
+#     a = int(input("Informe novamente o primeiro valor: "))
+#     
+# b = int(input("Informe o segundo valor: "))
+#     
+# while b <= 0:
+#     print("Informe um número positivo")
+#     b = int(input("Informe novamente o segundo valor: "))
+#         
+# if a>b:
+#     aux = a
+#     a = b
+#     b = aux
+#             
+# if a % 2 == 0:
+#     a = a + 1
+#     soma = 0
+#     print(f"Os números ímpares entre {a} e {b} são:\n {soma}")
+#             
+# while a<=b:
+#     print(a)
+#     soma = soma + a
+#     a = a + 2
+#         
+# print(f"A soma dos números ímpares no intervalo é {soma}")
 
-else:
-    print(f"{num} não é um número primo")
-    
+# a = int(input("Informe um valor inteiro: "))
+# 
+# while a <= 0:
+#     print("Informe um número positivo")
+#     a = int(input("Informe um valor: "))
+#     
+# soma = 0
+# cont = 1
+# 
+# while cont < a/2:
+#     
+#     if a % cont == 0: soma = soma + cont
+#     cont = cont + 1    
+#         
+# if soma == a:
+#     print("Número Perfeito")
+# else:
+#     print("Número Imperfeito")
+
+# altChico = 1.50
+# altZe = 1.10
+# anos = 0
+# 
+# while altZe <= altChico:
+#     altChico = altChico + 0.02
+#     altZe = altZe + 0.03
+#     anos = anos + 1
+#     
+# print(f"Zé demorou {anos} anos, para ficar maior que chico")
+
